@@ -45,6 +45,7 @@
             this.cmbJabatan = new System.Windows.Forms.ComboBox();
             this.jabatanBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.jabatanTableAdapter = new BekerjaDenganData2_22.BekerjaDenganDataDataSetTableAdapters.JabatanTableAdapter();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bekerjaDenganDataDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.karyawanBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.karyawanBindingSource1)).BeginInit();
@@ -171,11 +172,21 @@
             // 
             this.jabatanTableAdapter.ClearBeforeFill = true;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(257, 29);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(64, 13);
+            this.label5.TabIndex = 38;
+            this.label5.Text = "masuk yank";
+            // 
             // FormHapusKaryawan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 243);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.cmbJabatan);
             this.Controls.Add(this.btn_Cari);
             this.Controls.Add(this.btnBatal);
@@ -216,5 +227,6 @@
         private System.Windows.Forms.ComboBox cmbJabatan;
         private System.Windows.Forms.BindingSource jabatanBindingSource;
         private BekerjaDenganDataDataSetTableAdapters.JabatanTableAdapter jabatanTableAdapter;
+        private System.Windows.Forms.Label label5;
     }
 }
